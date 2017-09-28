@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/stylesheet.min.css">
+	<script src="assets/js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js""></script>
+
+</head>
+<body>
+	<section id="header">
+		<i id="icon" class="glyphicon glyphicon-book"></i>
+		<p id="title">New York Times Search</p>
+	</section>
+	<section id="main">
+		<div id="row1">
+			<i id="search-icon"></i>
+			<p id="search-title">Search Parameters</p>
+		</div>
+		<div id="row2">
+			<label id="search-term-title">Search Term:</label>
+			<input id="search-term" type="text"></input>
+		</div>
+		<div id="row3">
+			<label id="retrieve-records">Number of Records to Retrieve:</label>
+			<input id="records" type="text"></input>
+		</div>
+		<div id="row4">
+			<label id="start-year-title">Start Year (Optional):</label>
+			<input id="start-date" type="text"></input>
+		</div>
+		<div id="row5">
+			<label id="end-year-title">End Year (Optional)</label>
+			<input id="end-date" type="text"></input>
+		</div>
+		<div id="row6">
+			<button class="btn btn-primary btn1">
+				<i id="search-icon" class="glyphicon glyphicon-search"></i>
+				<p>Search</p>
+			</button>
+			<button class="btn btn-primary btn2">
+				<i id="search-icon" class="glyphicon glyphicon-trash"></i>
+				<p>Clear Results</p>
+			</button>
+		</div>
+	</section>
+	<section id="results">
+		<div id="rowResults1">
+			<i id="articles-icon"></i>
+			<p id="top-articles">Top Articles</p>
+		</div>
+		<div id="article-results">
+			
+		</div>
+
+	</section>
+</body>
+</html>
